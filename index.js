@@ -659,7 +659,7 @@ function renderBack() {
     ctx.fillStyle = "#ffffffff";
     ctx.font = String(20 * scale) + "px Arial";
     ctx.fillText("Back", 10 * scale, 350 * scale);
-    if (mouseX > 0 && mouseX < 70 * scale && mouseY > 330 && mouseY < 360 * scale) {
+    if (mouseX > 0 && mouseX < 70 * scale && mouseY > 330 * scale && mouseY < 360 * scale) {
         if (mouseDown) {
             gameScreen = SCREENTYPE.GAME_TO_TITLE;
         }
